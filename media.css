@@ -1,0 +1,152 @@
+@media(max-width: 1024px) {
+    .hero-content h1 {
+        font-size: 40px;
+    }
+    .hero-content p {
+        max-width: 486px;
+    }
+    .hero .box {
+        max-width: 335px;
+    }
+    .about {
+        padding: 80px;
+    }
+    .about h2 {
+        max-width: 100%;
+        text-align: center;
+    }
+    .about h3 {
+        text-align: center;
+    }
+    .about .about-img {
+        display: none;
+    }
+    .about-text {
+        width: 100%;
+        text-align: center;
+        max-width: 100%;
+    }
+    .about-text p {
+        max-width: 100%;
+    }
+    .call-to-action {
+        margin-top: 100px;
+    }
+    .contato {
+        margin-top: 132px;
+    }
+}
+
+@media(max-width: 840px) {
+    .hero {
+        padding: 80px 0;
+        display: flex;
+        justify-content: center;
+        border-top: 2px solid #0274DE;
+    }
+    .hero .container {
+        justify-content: center;
+    }
+    .hero-content h1 {
+        text-align: center;
+    }
+    .hero-content p {
+        max-width: 600px;
+        text-align: center;
+        margin: 20px auto 0 auto;
+    }
+    .hero-content .btn {
+        margin: 32px auto 0 auto;
+    }
+    .hero .box {
+        display: none;
+    }
+    .hero .hero-image {
+        display: none;
+    }
+    .call-to-action {
+        flex-direction: column;
+    }
+    .call-text h2 {
+        max-width: 100%;
+        text-align: center;
+    }
+    .call-text p {
+        text-align: center;
+    }
+    .call-button {
+        margin-top: 40px;
+    }
+    .contato {
+        margin: 80px 0;
+    }
+    .contato .container {
+        flex-direction: column;
+    }
+    .contato-whats img {
+        display: none;
+    }
+    .contato-tag {
+        display: none;
+    }
+    .contato .box {
+        display: none;
+    }
+    .contato-form form {
+        justify-content: center;
+        margin-top: 40px;
+    }
+    .contato-form input,
+    textarea {
+        border-bottom: 1px solid #292B2E;
+    }
+    .contato-form input::placeholder,
+    textarea::placeholder {
+        color: #292B2E;
+    }
+    .contato-form button {
+        background-color: #0274DE;
+        color: #FCFDFF;
+    }
+}
+
+@media(max-width: 764px) {
+    .testmonial-item {
+        margin: 20px;
+    }
+    .testmonials .container {
+        justify-content: center;
+    }
+    .about {
+        padding: 80px 0;
+    }
+}
+
+@media(max-width: 480px) {
+    .about h2 {
+        font-size: 32px;
+    }
+    .about .about-content {
+        margin-top: 32px;
+    }
+    .call-text h2 {
+        font-size: 32px;
+    }
+    .call-to-action {
+        padding: 80px 40px;
+    }
+    .contato-whats h2 {
+        font-size: 32px;
+        text-align: center;
+    }
+    .contato-whats .btn {
+        margin-left: 0;
+        margin-bottom: 40px;
+    }
+    .menu ul {
+        display: none;
+    }
+    .menu-burger {
+        display: block;
+    }
+}

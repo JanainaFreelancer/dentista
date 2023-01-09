@@ -1,0 +1,93 @@
+/* [data-anime] {
+    opacity: 0;
+    transition: .3s;
+}
+
+[data-anime="left"] {
+    transform: translate3d(-50px, 0, 0);
+}
+
+[data-anime="top"] {
+    transform: translate3d(0, 150px, 0);
+    transition: .20s;
+}
+
+[data-anime="aparecer"] {
+    opacity: 0;
+}
+
+[data-anime].animate {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+} */
+
+
+/* section {
+    opacity: 0;
+    transition: .9s;
+}
+
+section.animate {
+    opacity: 1;
+} */
+
+.anime {
+    opacity: 0;
+}
+
+.anime.animate {
+    opacity: 1;
+    animation: animacao .9s forwards;
+}
+
+.hero-content {
+    animation: animacaoHero 2s forwards;
+}
+
+.hero-image {
+    animation: animacaoHeroImage 5s forwards;
+}
+
+.hero .box {
+    animation: animacaoHeroBox 1s forwards;
+}
+
+@keyframes animacao {
+    from {
+        transform: translate3d(0, 150px, 0);
+    }
+    to {
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes animacaoHero {
+    from {
+        transform: translate3d(0, 250px, 0);
+        opacity: 0;
+    }
+    to {
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+}
+
+@keyframes animacaoHeroImage {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes animacaoHeroBox {
+    from {
+        transform: translate3d(250px, 0, 0);
+        opacity: 0;
+    }
+    to {
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+}
