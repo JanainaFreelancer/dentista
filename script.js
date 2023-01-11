@@ -80,6 +80,7 @@ function animeScroll() {
             elemento.classList.add('animate');
         }
     })
+    menuBurger.classList.remove('active')
 }
 
 // sempre que o usuário der scroll ativa a função
@@ -104,6 +105,7 @@ let closeBtn = document.querySelector('.js-close');
 function fechaMenu() {
     menuBurger.classList.remove('active')
 }
+
 
 closeBtn.addEventListener('click', fechaMenu);
 burger.addEventListener('click', ativaMobile)
