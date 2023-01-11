@@ -92,6 +92,7 @@ header .container {
     color: #FCFDFF;
     padding: 16px 24px;
     transition: all .3s;
+    cursor: pointer !important;
 }
 
 .btn:hover {
@@ -115,6 +116,7 @@ header .container {
     font-size: 56px;
     line-height: 120%;
     color: #292B2E;
+    max-width: 574px;
 }
 
 .hero-content p {
@@ -364,7 +366,7 @@ textarea::placeholder {
     max-width: 53%;
     height: 628px;
     right: 0;
-    top: 0;
+    bottom: 0;
     background: #0274DE;
 }
 
@@ -380,7 +382,7 @@ textarea::placeholder {
     align-items: center;
     background-color: #FCFDFF;
     padding-top: 20px;
-    z-index: 2;
+    z-index: 9999;
     display: none;
 }
 
@@ -439,4 +441,11 @@ textarea::placeholder {
     width: 32px;
     height: 32px;
     cursor: pointer;
+}
+
+footer {
+    background-color: #0274DE;
+    padding: 12px 0;
+    color: #FCFDFF;
+    text-align: center;
 }
